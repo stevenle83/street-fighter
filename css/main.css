@@ -1,13 +1,21 @@
 body {
-	background-color: black;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.container {
+	background-color: rgba(17, 0, 27, 1);
+	margin: 0 auto;
 }
 
 .main {
-	background-color: white;
-	margin-top: 110px;
+	background-image: url('../images/stage4.gif');
+	background-repeat: no-repeat;
+	background-size: 1500px 500px;
 	padding-left: 100px;
 	min-width: 1200px;
+	width: 75%;
 	height: 500px;
+	margin: 100px auto 0 auto;
 }
 
 .ryu {
@@ -55,7 +63,54 @@ body {
 }
 
 .directions {
-	position: absolute;
+	text-align: right;
+	margin-right: 50px;
+	padding-top: 100px;
+	font-size: 1.5em;
+	font-family: Cursive;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow:5px 7px 7px #ff0a0a;
+}
+
+.logos{
+	height: 220px;
+	width: 1900px;
+}
+
+#sf {
+	float: left;
+	background-image: url('../images/sf-logo.png');
+	background-repeat: no-repeat;
+	background-size: 600px 250px;
+	width: 650px;
+	height: 300px;
+	margin-left: 100px;
+	margin-top: 20px;
+	display: none;
+}
+
+#jquery {
+	float: right;
+	background-image: url('../images/jquery-logo.png');
+	background-repeat: no-repeat;
+	background-size: 500px 200px;
+	width: 600px;
+	height: 300px;
+	display: none;
+}
+
+.footer {
+	text-align: center;
 	margin-top: 50px;
-	right: 500px;
+}
+
+p {
+	height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	background: -webkit-linear-gradient(right, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+	background: linear-gradient(right, rgba(0,0,0,1), rgba(0,0,0,.5) 50%, rgba(0,0,0,1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
