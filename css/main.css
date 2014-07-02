@@ -3,17 +3,22 @@ body {
 }
 
 .container {
-	background-color: rgba(17, 0, 27, 1);
 	margin: 0 auto;
+}
+
+.middle {
+	margin: 0 auto;
+	background-color: rgba(17, 0, 27, 1);
 }
 
 .main {
 	background-image: url('../images/stage4.gif');
 	background-repeat: no-repeat;
+	background-position: center;
 	background-size: 1500px 500px;
 	padding-left: 100px;
 	min-width: 1200px;
-	width: 75%;
+	width: 1500px;
 	height: 500px;
 	margin: 100px auto 0 auto;
 }
