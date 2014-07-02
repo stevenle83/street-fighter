@@ -68,7 +68,7 @@ body {
 }
 
 .directions {
-	text-align: right;
+	float: right;
 	margin-right: 50px;
 	padding-top: 100px;
 	font-size: 1.5em;
